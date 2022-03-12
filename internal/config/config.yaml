@@ -1,1 +1,11 @@
-port: 8080
+server:
+  port: 8080
+
+mongodb:
+  host: localhost
+  port: 2717
+  database: userdb
+  auth_db:
+  username: mrb
+  password: "0224"
+  collection: userCollection
